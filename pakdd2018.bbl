@@ -1,0 +1,165 @@
+\begin{thebibliography}{24}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Belouchrani et~al.(1997)Belouchrani, Abed-Meraim, Cardoso, and
+  Moulines]{belouchrani1997}
+A.~Belouchrani, K.~Abed-Meraim, J.-F. Cardoso, and E.~Moulines.
+\newblock A blind source separation technique using second-order statistics.
+\newblock \emph{IEEE Transactions on signal processing}, 45\penalty0
+  (2):\penalty0 434--444, 1997.
+
+\bibitem[Cardoso(1989)]{FOBI}
+J.-F. Cardoso.
+\newblock Source separation using higher moments.
+\newblock In \emph{Proceedings of {IEEE} international conference on acoustics,
+  speech and signal processing}, pages 2109--2112, 1989.
+
+\bibitem[Cichocki and Amari(2002)]{amari2002}
+A.~Cichocki and S.~Amari.
+\newblock \emph{Adaptive blind signal and image processing: learning algorithms
+  and applications}, volume~1.
+\newblock John Wiley \& Sons, 2002.
+
+\bibitem[Davies(1987)]{S3}
+L.~Davies.
+\newblock Asymptotic behavior of s-estimates of multivariate location
+  parameters and dispersion matrices.
+\newblock \emph{Annals of Statistics}, 15:\penalty0 1269--1292, 1987.
+
+\bibitem[Engholm et~al.(2016)Engholm, Ferlay, Christensen, Kejs,
+  Hertzum-Larsen, Johannesen, Khan, Leinonen, et~al.]{engholm2010}
+G.~Engholm, J.~Ferlay, N.~Christensen, A.~Kejs, R.~Hertzum-Larsen,
+  T.~Johannesen, S.~Khan, M.~Leinonen, et~al.
+\newblock Nordcan: Cancer incidence, mortality, prevalence and survival in the
+  nordic countries, version 7.3 (8.7.2016).
+\newblock \emph{Association of the Nordic Cancer Registries. Danish Cancer
+  Society. Available from http://www.ancr.nu, accessed on 4.9.2017}, 2016.
+
+\bibitem[Gallardo-Caballero et~al.(2012)Gallardo-Caballero,
+  Garc{\'\i}a-Orellana, Garc{\'\i}a-Manso, Gonz{\'a}lez-Velasco, and
+  Mac{\'\i}as-Mac{\'\i}as]{gallardo2012}
+R.~Gallardo-Caballero, C.~Garc{\'\i}a-Orellana, A.~Garc{\'\i}a-Manso,
+  H.~Gonz{\'a}lez-Velasco, and M.~Mac{\'\i}as-Mac{\'\i}as.
+\newblock Independent component analysis to detect clustered microcalcification
+  breast cancers.
+\newblock \emph{The Scientific World Journal}, 2012, 2012.
+
+\bibitem[Hakama et~al.(1975)Hakama, Joutsenlahti, Virtanen, and
+  R{\"a}s{\"a}nen-Virtanen]{hakama1975}
+M.~Hakama, U.~Joutsenlahti, A.~Virtanen, and U.~R{\"a}s{\"a}nen-Virtanen.
+\newblock Mass screenings for cervical cancer in finland 1963-71. organization,
+  extent, and epidemiological implications.
+\newblock \emph{Annals of clinical research}, 7\penalty0 (2):\penalty0
+  101--111, 1975.
+
+\bibitem[Hyv{\"a}rinen et~al.(2001)Hyv{\"a}rinen, Karhunen, and Oja]{IN}
+A.~Hyv{\"a}rinen, J.~Karhunen, and E.~Oja.
+\newblock \emph{Independent Component Analysis}.
+\newblock John Wiley \& Sons, New York, 2001.
+
+\bibitem[Ilmonen(2013)]{i4c}
+P.~Ilmonen.
+\newblock On asymptotic properties of the scatter matrix based estimates for
+  complex valued independent component analysi.
+\newblock \emph{Statistics and Probability Letters}, 83:\penalty0 1219--1226,
+  2013.
+
+\bibitem[Ilmonen et~al.(2010)Ilmonen, Nevalainen, and Oja]{i4}
+P.~Ilmonen, J.~Nevalainen, and H.~Oja.
+\newblock Characteristics of multivariate distributions and the invariant
+  coordinate system.
+\newblock \emph{Statistics and Probability Letters}, 80(23-24):\penalty0
+  1844--1853, 2010.
+
+\bibitem[Ilmonen et~al.(2012)Ilmonen, Oja, and Serfling]{i8}
+P.~Ilmonen, H.~Oja, and R.~Serfling.
+\newblock On invariant coordinate system ({ICS}) functionals.
+\newblock \emph{International Statistical Review}, 80(1):\penalty0 93--110,
+  2012.
+
+\bibitem[Joyce et~al.(2004)Joyce, Gorodnitsky, and Kutas]{joyce2004}
+C.~A. Joyce, I.~F. Gorodnitsky, and M.~Kutas.
+\newblock Automatic removal of eye movement and blink artifacts from eeg data
+  using blind component separation.
+\newblock \emph{Psychophysiology}, 41\penalty0 (2):\penalty0 313--325, 2004.
+
+\bibitem[Leinonen et~al.(2016)Leinonen, Rantanen, Pitk{\"a}niemi, and
+  Malila]{leinonen2016}
+M.~K. Leinonen, M.~Rantanen, J.~Pitk{\"a}niemi, and N.~Malila.
+\newblock Coverage and accuracy of myeloproliferative and myelodysplastic
+  neoplasms in the finnish cancer registry.
+\newblock \emph{Acta Oncologica}, 0\penalty0 (0):\penalty0 1--5, 2016.
+
+\bibitem[Lopuha\"{a}(1989)]{S2}
+H.~P. Lopuha\"{a}.
+\newblock On relations between {S}-estimators and {M}-estimators of
+  multivariate location and scatter.
+\newblock \emph{Annals of Statistics}, 17:\penalty0 1662--1683, 1989.
+
+\bibitem[Maronna et~al.(2006)Maronna, Mardin, and Yohai]{MMY}
+R.~A. Maronna, R.~D. Mardin, and V.~J. Yohai.
+\newblock \emph{Robust Statistics: Theory and Methods}.
+\newblock John Wiley \& Sons, Chichester, 2006.
+
+\bibitem[Miettinen et~al.(2012)Miettinen, Nordhausen, Oja, and
+  Taskinen]{Miettinen2012}
+J.~Miettinen, K.~Nordhausen, H.~Oja, and S.~Taskinen.
+\newblock Statistical properties of a blind source separation estimator for
+  stationary time series.
+\newblock \emph{Statistics and Probability Letters}, 82:\penalty0 1865--1873,
+  2012.
+
+\bibitem[Nordhausen et~al.(2008)Nordhausen, Oja, and Ollila]{Nordhausen:2008}
+K.~Nordhausen, H.~Oja, and E.~Ollila.
+\newblock Robust independent component analysis based on two scatter matrices.
+\newblock \emph{Austrian Journal of Statistics}, 37:\penalty0 91--100, 2008.
+
+\bibitem[Oja et~al.(2006)Oja, Sirki{\"a}, and Eriksson]{Oja:2006}
+H.~Oja, S.~Sirki{\"a}, and J.~Eriksson.
+\newblock Scatter matrices and independent component analysis.
+\newblock \emph{Austrian Journal of Statistics}, 35:\penalty0 175--189, 2006.
+
+\bibitem[Parkin et~al.(2011)Parkin, Boyd, and Walker]{parkin2011}
+D.~M. Parkin, L.~Boyd, and L.~Walker.
+\newblock 16. the fraction of cancer attributable to lifestyle and
+  environmental factors in the uk in 2010.
+\newblock \emph{British journal of cancer}, 105:\penalty0 S77--S81, 2011.
+
+\bibitem[Sepp{\"a} et~al.(2016)Sepp{\"a}, Pitk{\"a}niemi, Malila, and
+  Hakama]{JP3}
+K.~Sepp{\"a}, J.~Pitk{\"a}niemi, N.~Malila, and M.~Hakama.
+\newblock Age-related incidence of cervical cancer supports two aetiological
+  components: a population-based register study.
+\newblock \emph{BJOG: An International Journal of Obstetrics \& Gynaecology},
+  123\penalty0 (5):\penalty0 772--778, 2016.
+
+\bibitem[Serfling(2010)]{Serfling2010}
+R.~J. Serfling.
+\newblock Equivariance and invariance properties of multivariate quantile and
+  related functions, and the role of standardisation.
+\newblock \emph{Journal of Nonparametric Statistics}, 22:\penalty0 915--936,
+  2010.
+
+\bibitem[Teppo et~al.(1994)Teppo, Pukkala, and Lehtonen]{teppo1994}
+L.~Teppo, E.~Pukkala, and M.~Lehtonen.
+\newblock Data quality and quality control of a population-based cancer
+  registry: experience in finland.
+\newblock \emph{Acta oncologica}, 33\penalty0 (4):\penalty0 365--369, 1994.
+
+\bibitem[Tong et~al.(1990)Tong, Soon, Huang, and Liu]{Tong1990}
+L.~Tong, V.~Soon, Y.~Huang, and R.~Liu.
+\newblock {AMUSE}: a new blind identifica- tion algorithm.
+\newblock \emph{Proceedings of IEEE International Symposium on Circuits and
+  Systems}, pages 1784--1787, 1990.
+
+\bibitem[Tyler et~al.(2009)Tyler, Chritchley, D\"umbgen, and Oja]{TY}
+D.~E. Tyler, F.~Chritchley, L.~D\"umbgen, and H.~Oja.
+\newblock Invariant coordinate selection.
+\newblock \emph{Journal of Royal Statistical Society Series B}, 71:\penalty0
+  549--592, 2009.
+
+\end{thebibliography}
