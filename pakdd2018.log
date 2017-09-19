@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  14 SEP 2017 14:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  19 SEP 2017 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,36 +437,36 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: cervicaloriginal.pdf Graphic file (type pdf)
 
 <use cervicaloriginal.pdf>
-Package pdftex.def Info: cervicaloriginal.pdf used on input line 169.
-(pdftex.def)             Requested size: 347.12354pt x 241.47577pt.
+Package pdftex.def Info: cervicaloriginal.pdf used on input line 160.
+(pdftex.def)             Requested size: 285.68198pt x 198.72437pt.
  [5] <ccomp1.pdf, id=34, 867.24pt x 722.7pt>
 File: ccomp1.pdf Graphic file (type pdf)
 
 <use ccomp1.pdf>
-Package pdftex.def Info: ccomp1.pdf used on input line 182.
+Package pdftex.def Info: ccomp1.pdf used on input line 172.
 (pdftex.def)             Requested size: 114.55139pt x 95.45403pt.
  <ccomp2.pdf, id=35, 867.24pt x 722.7pt>
 File: ccomp2.pdf Graphic file (type pdf)
  <use ccomp2.pdf>
-Package pdftex.def Info: ccomp2.pdf used on input line 183.
+Package pdftex.def Info: ccomp2.pdf used on input line 173.
 (pdftex.def)             Requested size: 114.55139pt x 95.45403pt.
 
 <ccomp3.pdf, id=36, 867.24pt x 722.7pt>
 File: ccomp3.pdf Graphic file (type pdf)
  <use ccomp3.pdf>
-Package pdftex.def Info: ccomp3.pdf used on input line 184.
+Package pdftex.def Info: ccomp3.pdf used on input line 174.
 (pdftex.def)             Requested size: 114.55139pt x 95.45403pt.
 
 <dimticsfinal.pdf, id=37, 1445.4pt x 1734.48pt>
 File: dimticsfinal.pdf Graphic file (type pdf)
  <use dimticsfinal.pdf>
-Package pdftex.def Info: dimticsfinal.pdf used on input line 201.
+Package pdftex.def Info: dimticsfinal.pdf used on input line 191.
 (pdftex.def)             Requested size: 347.12354pt x 416.54837pt.
  [6 <./cervicaloriginal.pdf>] <clusteri.pdf, id=48, 1806.75pt x 722.7pt>
 File: clusteri.pdf Graphic file (type pdf)
 
 <use clusteri.pdf>
-Package pdftex.def Info: clusteri.pdf used on input line 228.
+Package pdftex.def Info: clusteri.pdf used on input line 218.
 (pdftex.def)             Requested size: 347.12354pt x 138.84724pt.
  [7 <./ccomp1.pdf> <./ccomp2.pdf> <./ccomp3.pdf>] [8 <./dimticsfinal.pdf>] [9 <
 ./clusteri.pdf>] (./pakdd2018.bbl [10] [11
@@ -474,13 +474,13 @@ Package pdftex.def Info: clusteri.pdf used on input line 228.
 ]) [12]
 (./pakdd2018.aux) ) 
 Here is how much of TeX's memory you used:
- 4535 strings out of 494374
- 62838 string characters out of 6164954
- 134321 words of memory out of 5000000
- 7749 multiletter control sequences out of 15000+600000
+ 4538 strings out of 494374
+ 62892 string characters out of 6164954
+ 135462 words of memory out of 5000000
+ 7752 multiletter control sequences out of 15000+600000
  14767 words of font info for 55 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 38i,11n,49p,1436b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,49p,1400b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx
 9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
@@ -496,7 +496,7 @@ s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on pakdd2018.pdf (12 pages, 259595 bytes).
+Output written on pakdd2018.pdf (12 pages, 261091 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

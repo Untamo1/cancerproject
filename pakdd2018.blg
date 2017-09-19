@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: pakdd2018.aux
 The style file: abbrvnat.bst
 Database file #1: na2.bib
-You've used 24 entries,
+You've used 25 entries,
             2773 wiz_defined-function locations,
-            754 strings with 9068 characters,
-and the built_in function-call counts, 12096 in all, are:
-= -- 1076
-> -- 745
+            761 strings with 9483 characters,
+and the built_in function-call counts, 12992 in all, are:
+= -- 1145
+> -- 846
 < -- 9
-+ -- 252
-- -- 228
-* -- 1042
-:= -- 1867
-add.period$ -- 72
-call.type$ -- 24
-change.case$ -- 144
-chr.to.int$ -- 24
-cite$ -- 48
-duplicate$ -- 521
-empty$ -- 952
-format.name$ -- 254
-if$ -- 2497
++ -- 286
+- -- 261
+* -- 1136
+:= -- 2016
+add.period$ -- 75
+call.type$ -- 25
+change.case$ -- 157
+chr.to.int$ -- 25
+cite$ -- 50
+duplicate$ -- 542
+empty$ -- 993
+format.name$ -- 288
+if$ -- 2671
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 27
-newline$ -- 128
-num.names$ -- 96
-pop$ -- 272
+missing$ -- 28
+newline$ -- 133
+num.names$ -- 100
+pop$ -- 296
 preamble$ -- 1
-purify$ -- 123
+purify$ -- 135
 quote$ -- 0
-skip$ -- 397
+skip$ -- 420
 stack$ -- 0
-substring$ -- 565
-swap$ -- 48
+substring$ -- 592
+swap$ -- 49
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 249
+type$ -- 260
 warning$ -- 0
-while$ -- 112
+while$ -- 117
 width$ -- 0
-write$ -- 318
+write$ -- 331
