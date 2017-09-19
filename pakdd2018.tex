@@ -17,9 +17,9 @@
 
 %
 \begin{document}
-\title{On Exploring Hidden Structures of \\ Cervical Cancer Incidence Data in Finland}
+\title{On Exploring Hidden Structures\\ Behind  Cervical Cancer Incidence}
 %\titlerunning{}
-\author{Niko Lietz\'{e}n \inst{1}\thanks{Work of N. Lietz\'{e}n was supported by Emil Aaltonen Foundation (grant 170156 N).}  \and Janne Pitk{\"a}niemi \inst{2,3} \and Sirpa Hein{\"a}vaara \inst{2} \and Pauliina Ilmonen \inst{1}}
+\author{Niko Lietz\'{e}n\inst{1}\thanks{Work of N. Lietz\'{e}n was supported by Emil Aaltonen Foundation (grant 170156 N).}\and Janne Pitk{\"a}niemi\inst{2,3}\and Sirpa Hein{\"a}vaara\inst{2,3} \and  Pauliina Ilmonen\inst{1}}
 
 
 
@@ -32,18 +32,17 @@
 
 
 \begin{abstract}
-Finding novel latent structures in time related variation in disease incidence  may reveal new etiological components and is of great interest in disease  epidemiology. We introduce  time series version of invariant coordinate selection (tICS) as an exploratory tool in the search of hidden structures in the analysis of population-based registry data.  Increasing cancer burden inspired us to consider  a case study of age stratified cervical cancer incidence time series data in Finland between the years 1953 and 2014. To our knowledge,  tICS  has not been previously applied  to this  data. The latent components, that we uncovered using tICS, support recent findings of calendar time varying contribution of early and late age related components in cervical cancer. 
-Furthermore, we could explain most of the variation of cervical cancer incidence in different age groups by using only two latent tICS components. The second tICS component is particularly interesting, since it clusters the age groups according to the age of menopause. Our case study results imply that the etiology behind cervical cancer differs by age group. 
+Finding novel latent structures in time related variation in disease incidence  may reveal new etiological components and is of great interest in disease  epidemiology. We introduce  time series version of invariant coordinate selection (tICS) as an exploratory tool in the search of hidden structures in the analysis of population-based registry data.  Increasing cancer burden inspired us to consider  a case study of age stratified cervical cancer incidence in Finland between the years 1953 and 2014. The latent components, that we uncovered using tICS, support recent findings of calendar time varying contribution of early and late age-related components in cervical cancer. Furthermore, we could explain most of the variation of cervical cancer incidence in different age groups by using only two latent tICS components. The second tICS component is particularly interesting, since it clusters the age groups according to the age of menopause. Our case study results imply of the possibility of different etiological factors in cervical cancer by age group.
 \end{abstract}
 
 \section{Introduction}\label{intro}
-Increasing cancer burden has made researchers worldwide search for factors that explain  trends in cancer incidence data \citep{parkin2011}. In addition to age, period, and cohort, several other observable factors have an effect on the trends in cancer incidence. Improved diagnostics, organized cancer screening programs, and general awareness have increased the  cancer incidence for many cancers. Additionally, some known lifestyle related factors have an effect on the cancer incidence. For example, changes in smoking prevalence have a clear delayed effect on the incidence of lung cancer. However, there are also unknown underlying factors that have effects on cancer incidence rates. Identification and quantification of those unknown factors would further help in understanding the trends in cancer incidence data.
+Increasing cancer burden has made researchers worldwide search for factors that explain increasing trends in the cancer incidence of several cancers \citep{parkin2011}. In addition to age, period, and cohort, several other observable factors have an effect on the trends in cancer incidence. Improved diagnostics,  cancer screening programs, and general awareness have increased the  cancer incidence for many cancers. Additionally, several lifestyle related factors have an effect on the cancer incidence. For example, changes in smoking prevalence have a clear delayed effect on the incidence of lung cancer. However, there are also unknown unobservable underlying factors that have effects on cancer incidence rates. Identification and quantification of those unknown factors would further help in understanding the trends in cancer incidence data.
 
 In this paper, we consider a time series version of invariant coordinate selection (ICS) in the context of latent components of calendar time variation in incidence. ICS has been previously applied in numerous medical applications. It has been applied successfully to analyze e.g. EEG data sets of the brain \cite{joyce2004} and to cluster mammogram data sets \cite{gallardo2012}.
 We use the transformation as an exploratory tool in search of hidden structures of cervical cancer incidence time
 series data. The data set is from Finland between the years 1953 and 2014 and it is available online \cite{engholm2010}.
 
-ICS is closely related to the more famous independent component analysis (ICA). Under some assumptions, the ICS procedure provides a solution to the independent component problem. The objective in ICS is to transform the observed data into an invariant coordinate system. Occasionally,  the new coordinate system reveals structure from the data that is not originally visible. The clear advantage of ICS when comparing to e.g. the frequently used principal component analysis (PCA) is that the chosen scales and units of measurement have no effect on the results. 
+ICS is closely related to the more famous independent component analysis (ICA). Under some assumptions, the ICS procedure provides a solution to the independent component problem. The objective in ICS is to transform the observed data into an invariant coordinate system. Occasionally,  the new coordinate system reveals structure from the data that is not visible in the original coordinate system. The clear advantage of ICS when comparing to e.g. the frequently used principal component analysis (PCA) is that the chosen scales and units of measurement have no effect on the results. 
 
 %The goal of this paper is to illustrate the time series version of ICS as a feasible  exploratory tool, compared to e.g. the commonly used PCA. }
 
@@ -56,11 +55,11 @@ ICS is closely related to the more famous independent component analysis (ICA). 
 In this section, we review the scatter matrix based invariant coordinate selection method introduced in \cite{TY}.
 
 
-Let $X \in \mathbb{R}^{n\times p}$, where $n>p$. A location functional is a $p$-vector valued statistic $\hat{T}\left(X\right)$, that is affine equivariant in the sense that
+Let $X \in \mathbb{R}^{n\times p}$, where $n>p$. A location statistic is a $p$--vector valued statistic $\hat{T}\left(X\right)$, that is affine equivariant in the sense that
 \begin{align*}
 \hat{T}\left(AX+b1_n^\top\right)=A\hat{T}\left(X\right)+b
 \end{align*}
-for all nonsingular $p\times p$ matrices $A$ and for all $p$ vectors
+for all nonsingular $p\times p$ matrices $A$ and for all $p$--vectors
 $b$.
 Likewise, a  
 positive definite $p\times p$ matrix valued statistic $\hat{S}\left(X\right)$ is a scatter matrix, that is affine
@@ -68,35 +67,35 @@ equivariant in the sense that
 \begin{align*}
 \hat{S}\left(AX+b1_n^\top\right)=A\hat{S}\left(X\right)A^\top
 \end{align*}
-for all nonsingular $p\times p$ matrices $A$ and for all $p$ vectors
+for all nonsingular $p\times p$ matrices $A$ and for all $p$--vectors
 $b$.
 
 
 
-Elementary examples of a location functional and a scatter matrix are
-the sample mean vector and the sample covariance matrix. There are several other location functionals and scatter matrices, even families of them, that have different desirable properties, e.g. robustness, efficiency, limiting multivariate normality and computational efficiency \cite{S3,S2,MMY}.
+Elementary examples of a location statistic and a scatter matrix are
+the sample mean vector and the sample covariance matrix. There are several other location statistics and scatter matrices, even families of them, that have different desirable properties, e.g. robustness, efficiency, limiting multivariate normality and computational efficiency \cite{S3,S2,MMY}.
 
 
 
 
 
-Let $\hat{T}_1\left(X\right)$ denote an arbitrary but fixed location functional, and let $\hat{S}_1\left(X\right)$ and $\hat{S}_2\left(X\right)$ denote  arbitrary but fixed and different scatter matrices. The invariant coordinate selection (ICS) transformation $\hat{\Gamma}\left(X\right)$ for the data $X$ is  defined such that if 
+Let $\hat{T}_1\left(X\right)$ denote an arbitrary but fixed location statistic, and let $\hat{S}_1\left(X\right)$ and $\hat{S}_2\left(X\right)$ denote  arbitrary but fixed and different scatter matrices. The invariant coordinate selection (ICS) transformation $\hat{\Gamma}\left(X\right)$ for the data $X$ is  defined such that if 
 \begin{align*}
 Z=\hat{\Gamma}\left(X\right)\left(X-\hat{T}_1\left(X\right)1_n^\top \right),
  \end{align*}
  then
 \begin{align*}
-\hat{T}_1\left(Z\right)=0, \  \hat{S}_1\left(Z\right)=I_p,  \ \mbox{and} \  \hat{S}_2\left(Z\right)=L=\textnormal{diag}\left(l_1, ..., l_p\right),
+\hat{T}_1\left(Z\right)=0, \  \hat{S}_1\left(Z\right)=I_p  \ \mbox{ and } \  \hat{S}_2\left(Z\right)=L=\textnormal{diag}\left(l_1, \ldots, l_p\right),
 \end{align*}
-where the diagonal elements of the diagonal matrix $L$ are in decreasing order.
+where the diagonal elements of  $L$ are in absolute decreasing order.
 
 
 If the data arises from a continuous distribution, then the transformation matrix $\hat{\Gamma}\left(X\right)$ is almost surely unique up to the signs of its row vectors. Consequently, it is affine equivariant up to the signs, and it can be used to transform the data to up to signs invariant coordinates. Thus, affine  transformations to the original data have no  effect on the procedure. The transformation ensures that when examining the transformed data, the findings are true findings and not artefacts of the chosen coordinate system. 
-Note that whereas principal component analysis (PCA) makes data uncorrelated, ICS makes data independent with respect to two measures of linear dependence. ICS transformation can be seen as affine invariant PCA that, on top of first order dependencies, considers second order dependencies as well. Moreover, whereas PCA is highly affected by scaling of the variables,  ICS, due to affine invariance, is not affected by scaling at all.
+Note that whereas principal component analysis (PCA) makes data uncorrelated, ICS makes data independent with respect to two measures of dependence. ICS transformation can be seen as affine invariant PCA that, on top of first order dependencies, considers second order dependencies as well. Moreover, whereas PCA is highly affected by scaling of the variables,  ICS, due to affine invariance, is not affected by scaling at all.
 
 It can be shown that if the chosen location and scatter estimates converge, so do the statistics $\hat{\Gamma}$ and $L.$ Moreover, under the assumption of asymptotic normality of the location and scatter estimates, the statistics $\hat{\Gamma}$ and $L$ are also asymptotically normal \cite{i4c,i4,i8}.
 
-The scatter matrix based invariant coordinate selection transformation was first introduced in the context of independent component analysis (ICA) \cite{FOBI}. It was based on the use of the regular covariance matrix and the scatter matrix based on fourth moments. The transformation was named the fourth-order blind identification (FOBI) transformation. Later, the ICS transformation was considered in wider settings \cite{TY}. In the independent component model, the elements of a $p$ variate random vector are assumed to be linear combinations of the elements of an unobservable $p$ variate vector with mutually independent components. The aim in ICA is to recover the independent components by estimating an unmixing matrix that transforms the observed $p$ variate vector to  independent components \cite{IN}. Assuming that the chosen scatter functionals have the independence property, the ICS functional $\hat{\Gamma}$ provides a solution for the ICA problem \cite{FOBI,i4,Nordhausen:2008,Oja:2006}.  Under the assumption of i.i.d. observations, the use of the scatter matrix based ICS transformation has not  been limited to ICA. It has been applied in finding hidden underlying structures of data, in constructing affine invariant depth functions, in dimension reduction, in analysing mixture models, and in defining multivariate skewness and kurtosis measures \cite{i4c,i4,i8,Serfling2010,TY}.
+The scatter matrix based invariant coordinate selection transformation was first introduced in the context of independent component analysis (ICA) \cite{FOBI}. It was based on the use of the regular covariance matrix and the scatter matrix based on fourth moments. The transformation was named the fourth-order blind identification (FOBI) transformation. Later, the ICS transformation was considered in wider settings \cite{TY}. In the independent component model, the elements of a random $p$--vector are assumed to be linear combinations of the elements of an unobservable $p$--vector with mutually independent components. The aim in ICA is to recover the independent components by estimating an unmixing matrix that transforms the observed $p$--vector to  independent components \cite{IN}. Assuming that the chosen scatter matrices have the independence property, the ICS procedure provides a solution for the ICA problem \cite{FOBI,i4,Nordhausen:2008,Oja:2006}. Under the assumption of i.i.d. observations, the use of the scatter matrix based ICS transformation has not  been limited to ICA. It has been applied e.g. in finding hidden underlying structures of data, in constructing affine invariant depth functions, in dimension reduction, in analysing mixture models, and in defining multivariate skewness and kurtosis measures \cite{i4c,i4,i8,Serfling2010,TY}.
 
 
 For time series data, we can obtain transformations similar to ICS, by replacing the second scatter matrix in the transformation by an  autocovariance matrix.  Depending on the data set, we could also use two autocovariance matrices with different lags.  Autocovariance 
@@ -112,17 +111,17 @@ series data.
 In this section, we consider autocovariance matrix based transformations that have previously been applied to uncorrelated second order stationary time series data \cite{Miettinen2012,Tong1990}.
 
 
-Let $X\in \mathbb{R}^{n\times p}$ be a $p$-variate discrete times series that contains $n$ observations and denote the $i$th row of $X$ by $x_i$. Furthermore, let $\tau \in \left\{0,1,\ldots,n-1\right\}$ and let $\hat{T}\left(X\right), \hat{S}_0\left(X\right),$ and $\hat{S}_{\tau}\left(X\right)$ denote the sample mean vector, the sample covariance matrix, and the sample autocovariance matrix with lag $\tau$, respectively, that are computed from the data $X.$ The sample autocovariance matrix is defined as 
+Let $X\in \mathbb{R}^{n\times p}$, $n>p$, be an observed  $p$--variate time series where the components of $X$ arise from non-degenerate distributions. The time series $X$ contains $n$ ordered observations and we denote the $i$th observation by $x_i$. Likewise, we denote the $k$th component, i.e. $k$th column of $X$, by $x\left(k\right)$.  Furthermore, let $\tau \in \left\{0,1,\ldots,n-1\right\}$ and let $\hat{T}\left(X\right), \hat{S}_0\left(X\right),$ and $\hat{S}_{\tau}\left(X\right)$ denote the sample mean vector, the sample covariance matrix, and the sample autocovariance matrix with lag $\tau$, respectively, that are computed from  $X.$ The sample autocovariance matrix is defined as 
 \begin{align*}
 \hat{S}_{\tau}\left(X\right)=\frac{1}{\left(n -\tau\right)} \sum^{n-\tau}_{j=1}\left(\left(x_j - \hat{T}\left(X\right)\right)\left(x_{j+\tau} - \hat{T}\left(X\right)\right)^\top \right),
 \end{align*}
 where the sample covariance matrix is obtained with $\tau=0$, up to a constant. 
 
-Note that $\hat{S}_\tau$ does not necessarily produce symmetric estimates. The symmetrized version of the autocovariance matrix is obtained by
+The estimator $\hat{S}_\tau$ does not necessarily produce symmetric estimates. Since the population quantities of scatter are usually assumed to be symmetric, we use the symmetrized version of the autocovariance matrix estimator. The symmetrized sample autocovariance matrix is defined as
 \begin{align*}
 \hat{S}_\tau^\textnormal{S} = \frac{1}{2} \left( \hat{S}_\tau + \hat{S}^\top_\tau \right),
 \end{align*}
-which is a more convenient estimator since the population quantities of scatter are usually assumed to be symmetric.
+where $\hat{S}_\tau^\textnormal{S}$ always produces symmetric estimates.
 
  The time series invariant coordinate selection transformation matrix, i.e. the unmixing matrix, $\hat{\Gamma}\left(X\right)$ for the data $X$ is now defined such that if 
 \begin{align*}
@@ -130,15 +129,15 @@ Z= \hat{\Gamma}\left(X\right)\left(X-\hat{T}\left(X\right)1_n^\top\right),
 \end{align*}
 then
 \begin{eqnarray*}
-\hat{T}\left(Z\right)=0\text{ } \text{ , } \text{ }  \  \hat{S}_0\left(Z\right)=I_p  \text{ } \text{ and } \text{ }  \hat{S}^\textnormal{S}_{\tau}\left(Z\right)=\Lambda=\text{diag}\left(\lambda_1, ..., \lambda_p\right),
+\hat{T}\left(Z\right)=0,\text{ }  \text{ }  \  \hat{S}_0\left(Z\right)=I_p  \text{ } \text{ and } \text{ }  \hat{S}^\textnormal{S}_{\tau}\left(Z\right)=\Lambda=\text{diag}\left(\lambda_1, \ldots, \lambda_p\right),
 \end{eqnarray*}
-where $|\lambda_1|\ge ...\ge |\lambda_p|>0$.
+where  $\left|\lambda_1\right|\geq \ldots \geq \left|\lambda_p\right| > 0$.
 
 
 
 For general time series data, we call the transformation time series ICS or shortly tICS. The tICS transformation transforms time series data to invariant coordinates and it may be used in dimension reduction and/or as an exploratory tool in the search of hidden structures from time series data. We can think that ICS is an extension to PCA and tICS is incorporating the time series structure to the ICS transformation.
 
-The efficiency of the tICS procedure depends strongly on the choice of the parameter $\tau$. The approach proposed in literature is to try different values of $\tau$ and  choose the parameter such that the estimate $\Lambda$ has as distinct diagonal elements as possible  \cite{amari2002}.
+The efficiency of the tICS procedure depends strongly on the choice of the lag parameter $\tau$. The approach proposed in literature is to try different values of $\tau$ and  choose the lag parameter such that the estimate $\Lambda$ has as distinct diagonal elements as possible  \cite{amari2002}.
 
 
 Note that,
@@ -148,22 +147,21 @@ Note that,
 i.e. like in the case of regular ICS, the diagonal elements of $\Lambda$ are the eigenvalues of $\hat{S}_0\left(X\right)^{-1}\hat{S}^\textnormal{S}_{\tau}\left(X\right),$ and the column vectors of $\hat{\Gamma}\left(X\right)^\top$ are the corresponding eigenvectors. And again, if the diagonal elements of $\Lambda$ are distinct, then the solution is unique up to the signs of the eigenvectors.
 If the data arises from a continuous distribution, then the transformation matrix $\hat{\Gamma}\left(X\right)$ is almost surely unique up to the signs of its row vectors. Consequently, it is affine equivariant up to the signs, and it can be used to transform time series data to invariant coordinates.
 
-After deriving the estimate $\hat{\Gamma}\left(X\right) = \hat{\Gamma}\in \mathbb{R}^{p\times p}$,  the observed centered curves can be  estimated using the inverse $\hat{\Gamma}^{-1}$ such that
+We refer to the columns of $Z$ as the estimated tICS components. After deriving the estimate $\hat{\Gamma}\left(X\right) = \hat{\Gamma}\in \mathbb{R}^{p\times p}$,  the observed centered curves can be  estimated using the inverse $\hat{\Gamma}^{-1}$ such that
 \begin{align}
 \label{estimation}
-\hat{x}_t\left(i\right)= \sum_{k=1}^q  \left[\hat{\Gamma}^{-1}\right]_{ik} z_t\left(k\right) , \ t\in {1, ...., n}
+\hat{x}_t\left(j\right)= \sum_{k=1}^q  \left[\hat{\Gamma}^{-1}\right]_{jk} z_t\left(k\right) , \ t\in \left\{1,\ldots, n\right\}  \ \text{ and  } \ j,k,q \in \left\{1,\ldots p\right\},
 \end{align}
-where $i \in \left\{1,\ldots p\right\}$ is the $i$th column of $X$, $q$ is the number of underlying components we  use to estimate the original time series, $z_t\left(k\right),$ $k \in \left\{1,\ldots p\right\}$, is the $k$th column of the transformed data, i.e. the $k$:th estimated tICS component at time point $t$, and $\hat{x}_t\left(i\right)$ is the resulting estimate of the observed $i$th time series at a point of time $t$. Note that if we use all the tICS components, i.e. choose $q=p$, the estimates are then exactly the centered version of the original time series.
-
+where $z_t\left(k\right)$ is the $k$th estimated tICS component at time point $t$, $q$ is the chosen number of tICS components used in the estimation and $\hat{x}_t\left(j\right)$ is the resulting estimate of the observed $j$th time series at  time $t$.  Note that if we use all the tICS components, i.e. choose $q=p$, the estimates are then exactly the centered versions of the original time series. Furthermore, the $q$ components used in the estimation are the $q$ most important tICS components, i.e. the components that have the largest corresponding diagonal elements on the estimated  matrix $\Lambda$. 
 
 
 \section{Underlying Trends in Cancer Incidence}\label{data}
 In this section, we apply time series ICS transformation to time series data of age stratified cervical cancer incidence rates between years 1953 and 2014 in Finland.
 These long-term cervical cancer data from 1953--2014 in Finland were obtained from the population-based cancer registry with excellent quality and coverage of registration of solid tumors \cite{leinonen2016,teppo1994}. The data is available on  the web page of the NORDCAN project \cite{engholm2010}.
 
-During this 60--year period, cervical cancer incidence has been affected mostly by the nationwide screening program \cite{hakama1975}. The organized cervical cancer screening program was introduced in 1963 and it reached full coverage in the early 70s. Screening invitations are sent to females between 30 and 60 years of age in every five years. In some municipalities, invitations are extended also to females aged 25 and/or 65 years. Thus, we have divided the data into five year age groups.  There have been clear changes, mostly in the years and the age groups subject to organized screening. We  search for underlying structures that can be used in describing other changes in cancer incidences over the years. 
+During this 60--year period, cervical cancer incidence has been affected mostly by the nationwide screening program \cite{hakama1975}. The organized cervical cancer screening program was introduced in 1963 and it reached full coverage in the early 70s. Municipalities are responsible for inviting females between the ages of 30 and 60 every five years for inspection. In some municipalities, invitations are extended also to females aged 25 and/or 65 years. Thus, we have divided the data into five year age groups.  We  search for underlying structures that can be used in describing other changes in cancer incidences over the years. 
  
- The age groups of younger than 35 have been combined  into a single group. Likewise, age groups of older than 74 have been combined into a single group. Thus, our data set contains 10 separate age groups, resulting in a 10 dimensional time series with 62 observations. Annual incidences of the different age groups  are  presented in Fig. \ref{p1b}. Furthermore, the sample mean time series of the cervical cancer incidence is presented as a black curve in Fig. \ref{p1b}.
+Due to the sparse number of cancer in the age groups of younger than 35, they have been combined  into a single group. Likewise, age groups of older than 74 have been combined into a single group. Thus, our data set contains 10 separate age groups, resulting in a 10 dimensional time series with 62 observations. Annual incidences of the different age groups  are  presented in Fig. \ref{p1b}. Furthermore, the sample mean time series of the cervical cancer incidence is presented as a black curve in Fig. \ref{p1b}.
 \begin{figure}
    \centering
 \includegraphics[width=1\linewidth]{cervicaloriginal.pdf}
@@ -172,7 +170,7 @@ During this 60--year period, cervical cancer incidence has been affected mostly 
 \end{figure}
 
 We performed the tICS transformation using the sample covariance matrix as the first scatter matrix and the sample autocovariance matrix with lag parameter $\tau=1$ as the second scatter matrix. 
-The first three estimated tICS components are presented in Fig. \ref{tcomp}. We want to emphasize that the scales of the tICS components are not relevant. Instead, we seek for curves that have interesting shapes. The first three components have the largest corresponding absolute diagonal values on the estimated matrix $\Lambda$ and thus they are the most important. The remaining seven tICS components reveal no interesting structure and resemble noise. The remaining seven components are omitted from this paper.
+The first three estimated tICS components are presented in Fig. \ref{tcomp}. We want to emphasize that the scales of the tICS components are not relevant. Instead, we seek for curves that have interesting shapes. The first three components have the largest corresponding absolute diagonal values on the estimated matrix $\Lambda$ and thus they are the most important. The remaining seven tICS components resemble noise and are omitted from this paper.
 
  %First two components explain the trends seen in the original data very well.  
  
@@ -191,7 +189,7 @@ The shape of the first component is similar to the mean curve time series, compa
 
 The shape of the second tICS component is the most interesting, see Fig. \ref{p2}. It represents increasing trend from 1953 until mid--70s, and a decreasing trend after that. We call the second component ``the turning point". 
 
-The third tICS component in Fig. \ref{cop3} is less interesting when compared to the first  tICS components. Like the last seven components, the third component  has a great deal of resemblance to random variation.
+The third tICS component in Fig. \ref{cop3} is less interesting when compared to the first  tICS components. Like the last seven components, the third component  has a great deal of resemblance to random variation, with no systematic behavior.
 
 
 
@@ -253,19 +251,21 @@ Visual clustering based on the remaining components, including the third tICS co
 In our case study of cervical cancer incidence in Finland, tICS procedure produced interesting findings. 
 The underlying structures  found by tICS procedure support recent findings discovered using other methods \cite{JP3}. The second tICS component was the most interesting one. The first component clustered the age groups with respect to trend. It separated the age groups where cancer incidence has been decreasing from those where the incidence  has been increasing or has stayed relatively same. The information provided by the clustering of the first component could also be easily be verified from Fig. \ref{p1b} and thus the clustering provided by this component is not particularly interesting. The components after the second one seemed to be random variation, i.e. uninteresting noise. The tICS components 4--10 were omitted from this paper for this reason.
 
-The second tICS component clusters the age groups according to the approximate age of menopause. The behavior of this component supports the findings by Sepp\"{a} et al. \cite{JP3} of the calendar time varying contribution of early and late age related components in cervical cancer.  The first crossing point of the curves is soon after starting the cervical cancer screening. Hidden structures in the incidence in age groups close to menopause are different from those in the age groups far away from menopause. Thus, it seems that hormonal changes might have a significant role in etiology of cervical cancer. 
+The second tICS component clusters the age groups according to the approximate age of menopause. The behavior of this component supports the findings by Sepp\"{a} et al. \cite{JP3} of the calendar time varying contribution of early and late age-related components in cervical cancer.  The first crossing point of the curves is soon after starting the cervical cancer screening in 1963. Hidden structures in the incidence in age groups close to menopause ({\color{red} menopaussi ika ja viite}) are different from those in the age groups far away from menopause. This co-occurs at same age as menopause, suggesting potential role of hormonal changes in the etiology of cervical cancer. 
 
 
-We performed the tICS procedure with several different lags parameters $\tau$, and the best separation was obtained using lag $\tau=1$. The corresponding lag produced the most distinct values for the diagonal elements of the estimated matrix $\Lambda$ and the best estimated curves in Fig. \ref{dimred}. However, the most interesting findings --- the cluster structures visible in Fig. \ref{fig:cluster} --- stayed almost identical with several different lags that were close to $\tau=1$. 
+We performed the tICS procedure with several different lag parameters $\tau$, and the best separation was obtained using lag $\tau=1$. The corresponding lag produced the most distinct values for the diagonal elements of the estimated matrix $\Lambda$ and the best estimated curves in Fig. \ref{dimred}. However, the most interesting findings --- the cluster structures visible in Fig. \ref{fig:cluster} --- stayed almost identical with several different lags that were close to $\tau=1$. 
 
-Furthermore, we applied the second order blind identification (SOBI) \cite{belouchrani1997} procedure for this data. In SOBI, the second diagonalization is replaced with a joint diagonalization with respect to multiple autocovariance matrices with distinct lags. This makes the choice of the lag parameter less decisive. The shapes of the first two components were similar to our findings. However, the first two SOBI components, with every set of lags that we tried, had considerably worse performance in explaining the variation using only two or three components, whereas the first two tICS components explain the variation of the original time series relatively well, see Fig. \ref{dimred}.
+For comparison, we also applied the second order blind identification (SOBI) \cite{belouchrani1997} procedure for this data. In SOBI, the second diagonalization is replaced with a joint diagonalization with respect to multiple autocovariance matrices with distinct lags. This makes the choice of the lag parameter less decisive. The shapes of the first two components were similar to our findings. However, the first two SOBI components, with every set of lags that we tried, had considerably worse performance in explaining the variation using only two or three components, whereas the first two tICS components explain the variation of the original time series relatively well, see Fig. \ref{dimred}.
 
 
 
 Since the  tICS procedure is affine invariant, it ensures that the findings are not simply artifacts of the used coordinate system. Exploratory tools such as PCA are not affine invariant.
 Affine transformations of the original data would yield completely different results in PCA whereas tICS would remain unaffected. Furthermore, we applied the PCA transformation to this data set and the first two principal components were similar to the first two tICS components. However again, visual inspection of Fig. \ref{dimred} revealed that the first two and three principal components did not perform as well in estimating the original time series. 
 
-In this paper, we  stratified the analysis according to age groups, but other types of stratifications are also possible. We could e.g. consider stratification according to cohort and for other cancer sites also to gender. In the Western countries we are facing increasing cancer burden \cite{parkin2011}. Risk factors of  specific cancer have been studied for a long time, and many of them have been established. Even then, attributable fraction to known risk factors is often quite low leaving us with the need of further understanding etiology of a studied cancer. Identification of latent components of cancer incidence may open new possibilities for this. Further, if age related latent components of cancer are modifiable, it is important for future efforts of reducing cancer burden in Finland. 
+In this paper, we  stratified the analysis according to age groups, but other types of stratifications are also possible. We could e.g. consider stratification according to cohort and for other cancer sites also to gender.
+
+In the Western countries we are facing increasing cancer burden \cite{parkin2011}. Risk factors of  specific cancer have been studied for a long time, and many of them have been established. Even then, attributable fraction to known risk factors is often quite low leaving us with the need of further understanding etiology of a studied cancer. Identification of latent components of cancer incidence may open new possibilities for this. Further, if age-related latent components of cancer are modifiable, it is important for future efforts of reducing cancer burden in Finland. 
 
 
 
