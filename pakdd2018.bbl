@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,14 +29,6 @@ L.~Davies.
 \newblock Asymptotic behavior of s-estimates of multivariate location
   parameters and dispersion matrices.
 \newblock \emph{Annals of Statistics}, 15:\penalty0 1269--1292, 1987.
-
-\bibitem[Dratva et~al.(2009)Dratva, Real, Schindler, Ackermann-Liebrich,
-  Gerbase, Probst-Hensch, Svanes, Omenaas, Neukirch, Wjst, et~al.]{dratva2009}
-J.~Dratva, F.~G. Real, C.~Schindler, U.~Ackermann-Liebrich, M.~W. Gerbase,
-  N.~M. Probst-Hensch, C.~Svanes, E.~R. Omenaas, F.~Neukirch, M.~Wjst, et~al.
-\newblock Is age at menopause increasing across europe? {R}esults on age at
-  menopause and determinants from two population-based studies.
-\newblock \emph{Menopause}, 16\penalty0 (2):\penalty0 385--394, 2009.
 
 \bibitem[Engholm et~al.(2016)Engholm, Ferlay, Christensen, Kejs,
   Hertzum-Larsen, Johannesen, Khan, Leinonen, et~al.]{engholm2010}
@@ -108,6 +100,12 @@ H.~P. Lopuha\"{a}.
   multivariate location and scatter.
 \newblock \emph{Annals of Statistics}, 17:\penalty0 1662--1683, 1989.
 
+\bibitem[Lynge et~al.(2017)Lynge, L{\"o}nnberg, and T{\"o}rnberg]{lynge2017}
+E.~Lynge, S.~L{\"o}nnberg, and S.~T{\"o}rnberg.
+\newblock Cervical cancer incidence in elderly women-biology or screening
+  history?
+\newblock \emph{European Journal of Cancer}, 74:\penalty0 82--88, 2017.
+
 \bibitem[Maronna et~al.(2006)Maronna, Mardin, and Yohai]{MMY}
 R.~A. Maronna, R.~D. Mardin, and V.~J. Yohai.
 \newblock \emph{Robust Statistics: Theory and Methods}.
@@ -130,6 +128,13 @@ K.~Nordhausen, H.~Oja, and E.~Ollila.
 H.~Oja, S.~Sirki{\"a}, and J.~Eriksson.
 \newblock Scatter matrices and independent component analysis.
 \newblock \emph{Austrian Journal of Statistics}, 35:\penalty0 175--189, 2006.
+
+\bibitem[Pakarinen et~al.(2010)Pakarinen, Raitanen, Kaaja, and
+  Luoto]{pakarinen2010}
+M.~Pakarinen, J.~Raitanen, R.~Kaaja, and R.~Luoto.
+\newblock Secular trend in the menopausal age in finland 1997--2007 and
+  correlation with socioeconomic, reproductive and lifestyle factors.
+\newblock \emph{Maturitas}, 66\penalty0 (4):\penalty0 417--422, 2010.
 
 \bibitem[Parkin et~al.(2011)Parkin, Boyd, and Walker]{parkin2011}
 D.~M. Parkin, L.~Boyd, and L.~Walker.

@@ -149,15 +149,15 @@ where $z_t\left(k\right)$ is the $k$th estimated tICS component at time point $t
 
 
 \section{Underlying Trends in Cancer Incidence}\label{data}
-In this section, we apply time series ICS transformation to time series data of age stratified cervical cancer incidence rates between years 1953 and 2014 in Finland.
-These long-term cervical cancer data from 1953--2014 in Finland were obtained from the population-based cancer registry with excellent quality and coverage of registration of solid tumors \cite{leinonen2016,teppo1994}. The data is available on  the web page of the NORDCAN project \cite{engholm2010}.
+In this section, we apply time series ICS transformation to time series data of age stratified cervical cancer incidence rates between the years 1953 and 2014 in Finland.
+The data set was obtained from the population-based cancer registry with excellent quality and coverage of registration of solid tumors \cite{leinonen2016,teppo1994}. The data is available on  the web page of the NORDCAN project \cite{engholm2010}.
 
-During this 60--year period, cervical cancer incidence has been affected mostly by the nationwide screening program \cite{hakama1975}. The organized cervical cancer screening program was introduced in 1963 and it reached full coverage of Finland during the decade. Municipalities are responsible for inviting females between the ages of 30 and 60 every five years for inspection. In some municipalities, invitations are extended also to females aged 25 and/or 65 years. Thus, we have divided the data into five year age groups.  We  search for underlying structures that can be used in describing other changes in cancer incidences over the years. 
+During this 60--year period, cervical cancer incidence has been affected mostly by the nationwide screening program \cite{hakama1975}. The organized cervical cancer screening program was introduced in 1963 and it reached full coverage of Finland during the decade. Municipalities are responsible for inviting females between the ages of 30 and 60 for inspection every five years. In some municipalities, invitations are extended also to females aged 25 and/or 65 years. Thus, we have divided the data into five year age groups.  We  search for underlying structures that can be used in describing other changes in cancer incidences over the years. 
  
 Due to the sparse number of cancer incidence in the age groups of younger than 35,  they have been combined  into a single group. Likewise, age groups of older than 74 have been combined into a single group. Thus, our data set contains 10 separate age groups, resulting in a 10 dimensional time series with 62 observations. The age groups with the lowest mean and median incidence are under 35, 70--74 and over 75. Annual incidences of the different age groups  are  presented in Fig. \ref{p1b}. Furthermore, the sample mean time series of the cervical cancer incidence is presented as a black curve in Fig. \ref{p1b}.
 \begin{figure}
    \centering
-\includegraphics[width=0.823\linewidth]{cervicaloriginal.pdf}
+\includegraphics[width=0.722\linewidth]{cervicaloriginal.pdf}
 \caption{Age stratified cervical cancer incidence in Finland between 1953 and 2014.}
 \label{p1b}
 \end{figure}
@@ -241,14 +241,17 @@ Visual clustering based on the remaining components, including the third tICS co
 \section{Discussion}\label{disc}
 
 In our case study of cervical cancer incidence in Finland, tICS  produced interesting findings. 
-The underlying structures  found by the tICS procedure support recent findings discovered using other methods \cite{JP3}. The second tICS component was the most interesting one. The first component clustered the age groups with respect to trend. It separated the age groups where cancer incidence has been decreasing from those where the incidence  has been increasing or has stayed relatively same. The information provided by the clustering of the first component could also be easily be verified from Fig. \ref{p1b} and thus the clustering provided by this component is not particularly interesting. The components after the second one seemed to be random variation, i.e. uninteresting noise. The tICS components 4--10 were omitted from this paper for this reason.
+The uncovered latent structures support recent findings discovered using other methods \cite{JP3}. The first component clustered the age groups with respect to trend. It separated the age groups where cancer incidence has been decreasing from those where the incidence  has been increasing or has stayed relatively same. The information provided by the clustering of the first component could also be easily be verified from Fig. \ref{p1b} and thus the clustering provided by this component is not particularly interesting. The components after the second one seemed to be random variation, i.e. uninteresting noise. The tICS components 4--10 were omitted from this paper for this reason.
 
 
 
-The loadings with respect to the second tICS component cluster the different age groups into three separate clusters. The average age of the occurrence of menopause seems to be the factor that separates these clusters. Women usually experience menopause between the ages 40 and 58, where the median age of natural menopause has been estimated to be 54 \cite{dratva2009}. The first cluster contains age groups with negative loadings, which are the groups of younger than 55. The second cluster contains age groups with positive loadings, which are the groups of older than 59.  The third cluster contains only the age group of 55--59 and this group has an almost zero loading with respect to the second component.
+The loadings with respect to the second tICS component clustered the different age groups into three separate clusters. The average age of the occurrence of menopause is the factor that separates these clusters. Finnish women usually experience menopause between the ages 45 and 55, where the median age of natural menopause has been estimated to be 51 \cite{pakarinen2010}. The first cluster contains age groups with negative loadings, which are the groups of younger than 55. The second cluster contains age groups with positive loadings, which are the groups of older than 59.  The third cluster contains only the age group of 55--59 and this group has an almost zero loading with respect to the second component.
 
 
- The behavior of the second component supports the findings by Sepp\"{a} et al. \cite{JP3} of the calendar time varying contribution of early and late age-related components in cervical cancer.  The first crossing point of the curves is soon after starting the cervical cancer screening in 1963. Hidden structures in the incidence in age groups close to menopause  are different from those in the age groups far away from menopause. This co-occurs at same age as menopause, suggesting potential role of hormonal changes in the etiology of cervical cancer. 
+ The behavior of the second component supports the findings  of the calendar time varying contribution of early and late age-related components in cervical cancer \cite{JP3} .  The first crossing point of the curves is soon after starting the cervical cancer screening in 1963. Hidden structures in the incidence in age groups close to menopause  are different from those in the age groups far away from menopause. This co-occurs at same age as menopause, suggesting potential role of hormonal changes in the etiology of cervical cancer. 
+ 
+For future work, we could search for a variable, that has a similar shape as the second tICS component. Such a variable could possibly be one that has been previously ignored in the analysis of cervical cancer incidence. Thus, we would gain new insight to the prevention of cervical cancer.  Furthermore, we could also consider alternative stratifications in our analysis, e.g. stratification according to cohort.
+
 
 
 Generally, the tICS procedure is sensitive to the choice of the lag parameter $\tau$. In order to solidify our findings, we performed the tICS procedure with several different values of $\tau$, and the best separation was obtained using lag $\tau=1$. The corresponding lag produced the most distinct values for the diagonal elements of the estimated matrix $\Lambda$ and the best estimated curves in Fig. \ref{dimred}. However, the most interesting findings --- the cluster structures visible in Fig. \ref{fig:cluster} --- stayed almost identical with several different  lags that were close to $\tau=1$. Hereby, in our case study the procedure  was not highly sensitive to changes in the choice of $\tau$. 
@@ -266,11 +269,8 @@ Affine transformations of the original data would yield completely different res
 
 
 
-In this paper, we  stratified the analysis according to age groups, but other types of stratifications are also possible. We could e.g. consider stratification according to cohort and for other cancer sites also to gender.
 
-In the Western countries we are facing increasing cancer burden \cite{parkin2011}. Risk factors of  specific cancer have been studied for a long time, and many of them have been established. Even then, attributable fraction to known risk factors is often quite low leaving us with the need of further understanding etiology of a studied cancer. Identification of latent components of cancer incidence may open new possibilities for this. Further, if age-related latent components of cancer are modifiable, it is important for future efforts of reducing cancer burden in Finland. 
-
-
+We are facing increasing cancer burden in Western countries \cite{parkin2011}. Risk factors of  specific cancer have been studied for a long time, and many of them have been established. However, attributable fraction to known risk factors is often quite low leaving us with the need of further understanding etiology of a studied cancer. Identification of latent components of cancer incidence may open new possibilities for this. Furthermore, if age-related latent components of cancer are modifiable, it is important for future efforts of reducing cancer burden in Finland. 
 
 
 

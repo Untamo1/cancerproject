@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  19 SEP 2017 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  2 OCT 2017 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -438,7 +438,7 @@ File: cervicaloriginal.pdf Graphic file (type pdf)
 
 <use cervicaloriginal.pdf>
 Package pdftex.def Info: cervicaloriginal.pdf used on input line 160.
-(pdftex.def)             Requested size: 285.68198pt x 198.72437pt.
+(pdftex.def)             Requested size: 250.62323pt x 174.34036pt.
  [5] <ccomp1.pdf, id=34, 867.24pt x 722.7pt>
 File: ccomp1.pdf Graphic file (type pdf)
 
@@ -474,10 +474,10 @@ Package pdftex.def Info: clusteri.pdf used on input line 218.
 ]) [12]
 (./pakdd2018.aux) ) 
 Here is how much of TeX's memory you used:
- 4538 strings out of 494374
- 62892 string characters out of 6164954
- 135462 words of memory out of 5000000
- 7752 multiletter control sequences out of 15000+600000
+ 4542 strings out of 494374
+ 62960 string characters out of 6164954
+ 135461 words of memory out of 5000000
+ 7756 multiletter control sequences out of 15000+600000
  14767 words of font info for 55 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
  38i,11n,49p,1400b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -496,7 +496,7 @@ s/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on pakdd2018.pdf (12 pages, 261091 bytes).
+Output written on pakdd2018.pdf (12 pages, 261186 bytes).
 PDF statistics:
  152 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams
